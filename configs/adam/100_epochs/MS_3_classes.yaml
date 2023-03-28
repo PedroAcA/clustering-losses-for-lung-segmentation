@@ -1,0 +1,25 @@
+SAVE_ROOT: '../experiments/adam/epochs_100/'
+SYSTEM:
+  DEVICE: 'cuda:0'
+  EXP_NAME: 'MS_3_classes_adam'
+SOLVER:
+  BATCH_SIZE: 5
+  ITER_SIZE: 4
+  IMG_SIZE: (425, 425)
+  EPOCHS: 100
+  OPTIMIZER: 'Adam'
+  LOSS: 'MS'
+  LR: 5e-4
+  USE_POLY_DECAY: false
+  REGULARIZER: 1e-3
+MODEL:
+  CLASSES: 3
+  TIME_STEPS: 3
+DATA:
+  TRAIN:
+    ROOT: '../datasets/JSRT_dataset/imgs/'
+    LIST: '../datasets/JSRT_dataset/train_no_labels_png.lst'
+  TEST:
+    ROOT: '../datasets/JSRT_dataset/jpg_imgs/'
+    LIST: '../datasets/JSRT_dataset/test.lst'
+    GT_ROOT: '../datasets/JSRT_dataset/masks/lungs/'

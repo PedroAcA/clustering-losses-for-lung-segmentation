@@ -36,4 +36,4 @@ Note: All the command lines shown below expect that the prompt window is opened 
 
 
 # Model training
-1. Run python main.py --config_file ../configs/adam/epochs_100/RFCM_3_classes_pre_processed.yaml --mode train` on command line. This is going to train a new model according to RFCM4 experiment hyperparameters. The .yaml can be edited for different values of hyperparameters or a new .yaml file can be created hyperparameters or a new .yaml file can be created
+1. Run `python main.py --config_file ../configs/adam/epochs_100/RFCM_3_classes_pre_processed.yaml --mode train` on command line. This is going to train a new model according to RFCM4 experiment hyperparameters. The .yaml can be edited for different values of hyperparameters or a new .yaml file can be created hyperparameters or a new .yaml file can be created

@@ -34,7 +34,7 @@ Note: All the command lines shown below expect that the prompt window is opened 
 
 - To run the model, use the following command `python main.py --config_file ../configs/adam/epochs_100/RFCM_3_classes_pre_processed.yaml --mode test --chkpt_file ../experiments/adam/epochs_100/RFCM_3_classes_gamma_0_5_equalize_adam/RFCM_3_classes_gamma_0_5_equalize_adam_epoch_99.pth --test_batch_size 1 --test_type quantitative. This examples run the RFCM4 experiment for quantitative results`. To change the experiments, change the arguments --config_file and --chkpt_file to point to the config and .pth files respectively. To perform qualitative results, change --test_type to qualitative or all (note: qualitative tests need --test_batch_size to be 1 in order to work properly).
 		
-	- To run MC results of RFCM4, run `python preprocess_input.py --data_root ../datasets/NLM-MontgomeryCXRSet/MontgomerySet/CXR_png/ --out_dir ../datasets/NLM-MontgomeryCXRSet/MontgomerySet/pre_processed_mc/` and change --config_file to ../configs/adam/epochs_100/RFCM_3_classes_pre_processed_mc.yaml
+	- To run MC results of RFCM4, run `python preprocess_input.py --data_root ../datasets/NLM-MontgomeryCXRSet/MontgomerySet/CXR_jpg/ --out_dir ../datasets/NLM-MontgomeryCXRSet/MontgomerySet/pre_processed_mc/` and change --config_file to ../configs/adam/epochs_100/RFCM_3_classes_pre_processed_mc.yaml
 
 
 # Model training

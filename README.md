@@ -14,7 +14,7 @@ To replicate our results, please follow the steps below.
 
 2. Download SCR masks for JSRT from https://drive.google.com/drive/folders/1FqT2XsBQ_cPwGkq8g1QnSg2PUmh9E9fq?usp=sharing (last access in 19th of June, 2023), uncompress, and move the lungs/ folder into datasets/JSRT_dataset/masks/ folder
 
-3. Download weights from https://drive.google.com/drive/folders/1TdAAP6pdZGI7GFfRBdz3_GbaZWIiFP9U?usp=sharing  (last access on 19th of June, 2023) and uncompress it into experiments/ folder. The experiments described are associated to the following folders:
+3. Download weights from https://drive.google.com/drive/folders/1GkXULPl6bUjAp8wd0KvtwXDcnbvQVoyF?usp=sharing  (last access on 19th of June, 2023) and uncompress it into experiments/ folder. The experiments described are associated to the following folders:
 	- RFCM1: RFCM_2_classes_adam/
 	- RFCM2: RFCM_2_classes_gamma_0_5_equalize_adam/
 	- RFCM3: RFCM_3_classes_adam/ 
